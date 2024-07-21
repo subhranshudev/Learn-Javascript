@@ -1,3 +1,5 @@
+// Object is collection of different values
+
 // singleton
 // Object.create  --> constructor
 
