@@ -14,16 +14,18 @@ const anotherId = Symbol('123')
 //console.log( Id === anotherId);
 
 const bigNumber = 959734987428057n
+// console.log(`datatype of bigNumber is:${typeof bigNumber}`);
+
 //console.log(typeof  anotherId);
 
 // Reference (Non Primitive)
 
 //Array, objects, Functions
 
-const heros = [ "shaktiman" , "nagraj" , "doga"];
+const heros = ["shaktiman" , "nagraj" , "doga"];
 let myObj = {
-    name :"subhranshu",
-    age:19,
+    name: "subhranshu",
+    age: 19,
 }
 
 const myFunction = function (){
@@ -50,7 +52,7 @@ let myName ="Subhranshu"
 let anotherName = myName
 anotherName = "Sekhar"
 
-console.log(myName);
+console.log(myName); 
 console.log(anotherName);
 
 let userOne ={
