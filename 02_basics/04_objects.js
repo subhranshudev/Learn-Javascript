@@ -17,7 +17,7 @@ const regularUser = {
     }
 }
 
-// console.log(regularUser.fullName.userFullname.firstName);
+ console.log(regularUser.fullName.userFullname.firstName);   
 
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
@@ -66,8 +66,8 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
-console.log(instructor);
+// const {courseInstructor: instructor} = course
+// console.log(instructor);
 
 
 // {
