@@ -22,7 +22,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr.indexOf(9));
 // console.log(myArr.indexOf(3));
 
-// const newArr = myArr.join()
+ const newArr = myArr.join()    // join() converts array into string
 
 // console.log(myArr);
 // console.log( newArr);
