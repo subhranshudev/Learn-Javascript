@@ -8,7 +8,7 @@ let myDate = new Date()
 
 // let myCreatedDate = new Date(2024, 0, 25)     // indexing of months start from 0
 // let myCreatedDate = new Date(2024, 0, 25 , 5 , 3)
-// let myCreatedDate = new Date("2024-01-25")         //in yy-dd-mm declaration numbers of months start from 01 as usual
+// let myCreatedDate = new Date("2024-01-25")         //in yy-mm-dd declaration numbers of months start from 01 as usual
 let myCreatedDate = new Date("01-25-2024")         // mm-dd-yy
 // console.log(myCreatedDate.toLocaleString());
 
