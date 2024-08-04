@@ -1,6 +1,6 @@
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// const values = coding.forEach( (item) => {
+// const values = coding.forEach( (item) => {            // forEach() do not return any value
 //      console.log(item);
 //     return item
 // } )
@@ -38,6 +38,8 @@ const books = [
 
   let userBooks = books.filter( (bk) => bk.genre ==='History' )
 
-  userBooks = books.filter( (bk) => {return bk.publish >= 1995 && bk.genre === 'History'})
+  userBooks = books.filter( (bk) => {
+    return bk.publish >= 1995 && bk.genre === 'History'
+  })
 
 console.log(userBooks);
