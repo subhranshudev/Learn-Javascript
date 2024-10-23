@@ -1,7 +1,7 @@
 const score = 400
 //console.log(score);
 
-const balance = new Number(100)
+const balance = new Number(100) // In JavaScript, using new Number(100) creates a Number object. However, it's generally better to use the primitive number type directly. 
 //console.log(balance);
 
 //console.log(balance.toString());
