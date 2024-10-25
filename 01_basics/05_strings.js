@@ -5,7 +5,7 @@ const repoCount = 1
 
 //console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); // modern String  ---  string interpolation
 
-const gameName = new String("subhranshu-sekhar-com")  // Using new String("subhranshu-sekhar-com") creates a String object in JavaScript. However, just like with numbers, it's typically better to use string literals.
+const gameName = new String("subhranshu-sekhar-com")  // Using new String("subhranshu-sekhar-com") creates a String object in JavaScript. However, it's typically better to use string literals.
 
 //console.log(gameName[0]);
 //console.log(gameName.__proto__);

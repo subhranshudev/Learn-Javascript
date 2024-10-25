@@ -33,6 +33,19 @@ const chai = () => {
 }
 // chai()
 
+
+const person = {
+    name: 'Alice',
+    greet: () => {
+      console.log(`Hello, I am ${this.name}`);
+    }
+  };
+  
+ // person.greet();   // "Hello, I am undefined" (in non-strict mode, `this` is `window`)
+ //  Here, this in the arrow function does not refer to the person object. Instead, it refers to this in the 
+ //  outer lexical scope, which is the global object in this case.
+  
+
 // const addTwo = (num1,num2) => {
 //     return num1 +num2
 // }
