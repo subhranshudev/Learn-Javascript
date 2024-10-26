@@ -8,6 +8,10 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 // console.log(values);
 
 
+// In JavaScript, the "filter" method is used on arrays to create a new array containing only the elements 
+// that meet a specified condition. It is particularly useful when we want to filter out items based on 
+// certain criteria without modifying the original array.
+
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // const newNums = myNums.filter( (num) => {
 //     return num > 4
