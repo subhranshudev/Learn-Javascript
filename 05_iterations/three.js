@@ -15,6 +15,10 @@ for (const greet of greetings) {
 
 // Maps
 
+//  In JavaScript, Map is a collection of key-value pairs, similar to an object but with notable differences.
+//  Map offers methods like .set(), .get(), .has(), .delete(), and .clear()
+
+
 const map = new Map()
 map.set('IN','India')
 map.set('USA','United States of America')
