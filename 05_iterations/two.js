@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5195477df9dcd28a60e61828e1436bc7a5eb7a
 // let index = 0
 // while (index <= 10) {
 //     console.log(`Value of index is ${index}`);
