@@ -8,7 +8,7 @@ btn.addEventListener("click", function(){
     div.style.backgroundColor = randomColor;
     h3.style.color = randomColor;
     
-   // console.log("color updated");
+    console.log("color updated");
 })
 
 function getRandomColor(){
